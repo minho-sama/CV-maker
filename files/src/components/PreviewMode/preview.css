@@ -1,12 +1,50 @@
 .preview-form{
     margin-top: 60px;
     margin-bottom: 20px;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
     background-color: rgb(250, 243, 235);
     border-radius: 3px;
     box-shadow: 10px 10px #111111;
     border: 1px solid black;
+}
+
+/*user info container*/
+.info-box{
+    position:relative;
+    line-height: 5px;
+    
+    /*enélkül a .data-container lezuhan*/
+    border: 1px solid rgb(250, 243, 235);
+}
+
+.name-container{
+    font-weight: bold;
+    font-size: 35px;
+}
+.data-container{
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.edu-inline{
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+}
+
+.edu-inline p:nth-child(2){
+    text-transform:uppercase;
+}
+
+.indent{
+    margin-left: 20px;
 }

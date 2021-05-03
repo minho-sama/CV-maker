@@ -1,4 +1,21 @@
 ITT MAJD TÖBB WORKÖT IS MEG LEHET ADNI MAJD!
 PREVIEWNÁL ITERATELNI MAP-PEL A CV-N, ÉS ÚGY KREÁLNI (DINAMIKUSAN)
 map közben adni indexet, és az alapján deletelni!
+
 midegyik work egy új object, ezeket egy arraybe dobni, és úgy kivetíteni!
+pl work1 = {
+    company,
+    years,
+    position
+}
+            VAGY!VAGY!VAGY!VAGY!VAGY!VAGY!VAGY!VAGY!
+            
+a work mindegyik eleme (cég neve, pozíció, dátum) egy-egy külön változó, ami egy array:
+pl:
+company: [a, b, c]
+years: [a-b, c-d, e-f]
+
+
+mindkét esetben useState([])
+ilyet csináltál már, kimappeled a worköket, mindegyikből return <div></div> (fcc projects Tours)
+törlés filterrel

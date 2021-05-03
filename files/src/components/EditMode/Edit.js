@@ -1,15 +1,25 @@
 import Info from './Info/info'
 import './edit-global.css'
+import Education from './Education/Education'
+import Skills from './Skills/Skills'
 
-export function Edit (infoProps) {
+export function Edit (allProps) {
+
+//i'm actually passing down ALL the props (allProps = {allProps})
+
 return (
     <>
     <article>
-        <Info infoProps = {infoProps}/>
+        <Info infoProps = {allProps}/>
     </article>
-    <article><p>education</p></article>
+    <article><Education eduProps = {allProps}
+    /></article>
+
     <article><p>work</p></article>
-    <article><p>skills</p></article>
+
+    <article>
+        <Skills skillsProps = {allProps}/>
+        </article>
     </>
 )
 

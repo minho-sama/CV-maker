@@ -1,5 +1,3 @@
-/*MINDEGYIK KÁRTYÁT (WORK? EDUCATION? SKILL) info.js alapján felépíteni! és ezt a csst alkalmazni rá!*/
-
 article{
     background-color: rgb(250, 243, 235);
     border-radius: 3px;
@@ -8,7 +6,8 @@ article{
     padding: 10px;
     margin: 50px;
 }
-
+ 
+/*MINDEGYIK KÁRTYÁT (WORK? EDUCATION? SKILL) info.js alapján felépíteni! és ezt a csst alkalmazni rá!*/
 section{
     position: relative;
 }
@@ -17,18 +16,76 @@ label{
     font-weight: bold;
     margin: 5px;
 }
-
-.info-container input{
+.info-container{
+    line-height: 250%;
+}
+.info-container input, .info-container textarea{
     width: 97%;
     border: none;
     border-radius: 3px;
     padding: 7px;
     font-size: 15px;
     margin: 5px;
-}   
+} 
 
-.icon-userinfo{
+.icon-logo{
     position: absolute;
     top: 7px;
     right: 5px;
+}
+
+/*education*/
+.edu-date input{
+    width: 30%;
+    display: inline;
+    margin: auto;
+}
+
+.edu-border input, .edu-border textarea{
+    border: 1px solid black;
+}
+
+/*Skills*/
+
+.addSkill-btn, .cancelSkill-btn{
+    background: white;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 4px;
+    transition: 0.3s;
+}
+
+.addSkill-btn:hover, .cancelSkill-btn:hover{
+    box-shadow: 2px 2px #111111;
+    transform: translateX(-3px);
+    background: rgb(25, 148, 25);
+}
+
+.cancelSkill-btn:hover{
+    background: crimson;
+}
+
+.skill-buttons button{
+    margin: 10px;
+}
+
+.skill-item{
+    width: 50%;
+    position:relative;
+}
+.skill-item button{
+    position:absolute;
+    top: 9px;
+    right: 18%;
+    background: none;
+    border: none;
+    transition: 0.3s;
+}
+
+.skill-item button:hover{
+    color: crimson;
+    transform: scale(1.2);
+
+    box-shadow: none;
+    transform: none;
 }

@@ -2,11 +2,12 @@ import {AiFillInfoCircle} from 'react-icons/ai'
 
 export function Info({infoProps}) {
 
-const {firstName, setFirstName, lastName, setLastName, address, setAddress, phoneNum, setPhoneNum, emailAddress, setEmailAddress} = infoProps;
+const {firstName, setFirstName, lastName, setLastName, address, setAddress, phoneNum, 
+        setPhoneNum, emailAddress, setEmailAddress} = infoProps;
     return (
         <section className = 'info-container'>
             <h2>Info</h2>
-            <AiFillInfoCircle className = 'icon-userinfo' size = "30px"/>
+            <AiFillInfoCircle className = 'icon-logo' size = "30px"/>
 
             <label>First name: </label>
             <input type = 'text' value = {firstName} onChange = {(e) => setFirstName(e.target.value)} name = "firstName" placeholder = "Enter Your first name"/>
