@@ -1,0 +1,25 @@
+header{
+    color:white;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: rgb(36, 100, 238);;
+    border-radius: 3px;
+    box-shadow: 0 2rem 3rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    font-size: 2.3rem;
+    margin-top: 0px;
+}
+
+a{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}

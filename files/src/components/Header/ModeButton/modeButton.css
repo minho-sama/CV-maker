@@ -1,0 +1,26 @@
+.mode-btn{
+    margin: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    color:white;
+    background-color: rgb(54, 54, 54);
+    width: 110px;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(226, 31, 31);
+    cursor: pointer;
+    transform: translate(-5px, 0);
+    box-shadow: 4px 4px #2c2b2b;
+}
+
+.active-btn{
+    background-color: rgb(226, 31, 31);
+}
+
+.active:hover{
+
+}
