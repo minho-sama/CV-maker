@@ -1,0 +1,4 @@
+ITT MAJD TÖBB WORKÖT IS MEG LEHET ADNI MAJD!
+PREVIEWNÁL ITERATELNI MAP-PEL A CV-N, ÉS ÚGY KREÁLNI (DINAMIKUSAN)
+map közben adni indexet, és az alapján deletelni!
+midegyik work egy új object, ezeket egy arraybe dobni, és úgy kivetíteni!

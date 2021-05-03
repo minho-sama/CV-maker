@@ -23,11 +23,13 @@ code {
 
 .form{
   margin-top: 60px;
+  margin-bottom: 20px;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   padding: 15px;
-  background-color: rgb(250, 243, 235);
+  /* background-color: rgb(250, 243, 235);
   border-radius: 3px;
   box-shadow: 10px 10px #111111;
+  border: 1px solid black; */
 }

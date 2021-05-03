@@ -1,8 +1,16 @@
+import Info from './Info/info'
+import './edit-global.css'
 
-
-export function Edit () {
+export function Edit (infoProps) {
 return (
-    <p></p>
+    <>
+    <article>
+        <Info infoProps = {infoProps}/>
+    </article>
+    <article><p>education</p></article>
+    <article><p>work</p></article>
+    <article><p>skills</p></article>
+    </>
 )
 
 }

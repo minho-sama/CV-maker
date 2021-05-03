@@ -3,9 +3,10 @@ header{
     width: 100%;
     text-align: center;
     position: relative;
-    background-color: rgb(36, 100, 238);;
+    background-color: rgb(36, 100, 238);
     border-radius: 3px;
     box-shadow: 0 2rem 3rem 1rem rgba(0, 0, 0, 0.1);
+    border: 3px solid rgb(18, 67, 175);
 }
 
 h2{
