@@ -60,6 +60,11 @@
 
 .education-container li{
     margin-left: 1%;
+    margin-bottom: 14px;  
+}
+
+.education-container h2{
+    margin-bottom: 8px;
 }
 
 /*skills*/
