@@ -4,8 +4,11 @@ header{
     width: 100%;
     text-align: center;
     position: relative;
-    /* background-color: rgb(26, 75, 182); */
-    background-color: rgb(92, 91, 91);
+    
+    background-color: rgb(24, 70, 168);
+    /* background-color: rgb(92, 91, 91); */
+    /* background-color: rgb(134, 66, 190); */
+
     border-radius: 3px;
     box-shadow: 0 2rem 3rem 1rem rgba(0, 0, 0, 0.15);
     /* border: 3px solid rgb(16, 66, 173); */

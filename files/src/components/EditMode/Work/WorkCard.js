@@ -13,7 +13,7 @@ export function WorkCard({workProps, id}) {
         <hr/>
         <div className = "work-container"> 
             <span className = "work-card">
-                <p>{company}</p><p>{position}</p><p>{from} - {to}</p>
+                <p>{company}</p><p>{position}</p><p>{from} - {to === "" ? "Present" : `${to}`}</p>
             </span>
         {
             showDescription ? 

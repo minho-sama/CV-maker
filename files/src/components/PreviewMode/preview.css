@@ -35,10 +35,19 @@
     text-decoration: underline;
 }
 
+.education-container{
+    margin-left: 15px;
+}
+
 .edu-inline{
     font-weight: bold;
+    font-size: 20px;
     display: flex;
     gap: 15px;
+}
+
+.education-container span{
+    font-weight: bold;
 }
 
 .edu-inline p:nth-child(2){
@@ -46,5 +55,23 @@
 }
 
 .indent{
+    margin-left: 10%;
+}
+
+.education-container li{
+    margin-left: 1%;
+}
+
+/*skills*/
+.skills-container li{
+    margin-left: 20px;
+}
+
+.indent-title{
+   margin-left: 15px;
+}
+
+/*work*/
+.work-container h3{
     margin-left: 20px;
 }

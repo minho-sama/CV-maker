@@ -82,7 +82,7 @@ function App() {
                         setSkillsEdit}}
                    {...{workInfos, workArr, setWorkInfos, setWorkArr, workEditMode, setWorkEditMode, addWork, removeWork}}
               /> : 
-              <Preview userInfo = {userInfoObj} eduInfo = {eduObj} />
+              <Preview userInfo = {userInfoObj} workArr = {workArr} eduInfo = {eduObj} skillsArray = {skillsArray}/>
               }
 
       </div>
