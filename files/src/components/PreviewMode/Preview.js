@@ -27,7 +27,7 @@ export function Preview ({userInfo, eduInfo}) {
                 <div className = "edu-inline">
                     <p>{schoolName} <FaGripLinesVertical/> {degree}</p>
                 </div>
-                <p>{fromDate} - {toDate === "" ? 'Present' : `${toDate}`}</p>
+                <p>{fromDate === "" ? 'MM/DD/YYYY' : `${fromDate}`} - {toDate === "" ? 'Present' : `${toDate}`}</p>
                 <p className = 'underline'>Description, Achievements: </p>
                 <p className = "indent">{achievements}</p>
             </div>

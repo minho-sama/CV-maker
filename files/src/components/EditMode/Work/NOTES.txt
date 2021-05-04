@@ -1,6 +1,12 @@
 ITT MAJD TÖBB WORKÖT IS MEG LEHET ADNI MAJD!
+Megcseréni educationnel!
+
+EDITMODe-ban csak egy gomb (+ add work) és akkor kiugrik. kinda mint a skilleknél
+previewban {gotWork ? "összes work" : semmi}
+
 PREVIEWNÁL ITERATELNI MAP-PEL A CV-N, ÉS ÚGY KREÁLNI (DINAMIKUSAN)
 map közben adni indexet, és az alapján deletelni!
+Previewban nem mutatni work sectiont, ha a workArr.length < 1
 
 midegyik work egy új object, ezeket egy arraybe dobni, és úgy kivetíteni!
 pl work1 = {

@@ -72,6 +72,7 @@ label{
 .skill-item{
     width: 50%;
     position:relative;
+    margin-left: 8px;
 }
 .skill-item button{
     position:absolute;
@@ -88,4 +89,50 @@ label{
 
     box-shadow: none;
     transform: none;
+}
+
+/*work*/
+.deleteWork-btn{
+    float:right;
+    position: absolute;
+    top: 35%;
+    right: 5px;
+}
+
+.work-container{
+    position:relative;
+}
+
+.work-card{
+    font-weight: bold;
+    display:flex;
+    gap: 10%;
+}
+
+.description-btn{
+    float:right;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    transition: 0.3s;
+    border: none;
+    background: none;
+    font-size: 25px;
+}
+
+.description-btn:hover{
+    background-color: white;
+    transform: none;
+    background: none;
+    box-shadow: none;
+    transform: scale(1.2)
+}
+
+.descriptionDel-btn{
+    font-size: 15px;
+    top: 32px;
+}
+
+.description{
+    display: block;
 }

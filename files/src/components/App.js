@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import '../index.css';
 import Header from './Header/Header';
 import Edit from './EditMode/Edit';
@@ -38,16 +38,35 @@ function App() {
     setSkillsEdit(false)
   };
 
-  console.log(skillsArray)
-
   const removeSkill = (id) => {
     console.log(id)
-    let filteredArr = skillsArray.filter(skill => {
+    let filteredArr = skillsArray.filter((skill) => {
       return skillsArray[id] !== skill
     })
     console.log(filteredArr)
     setSkillsArray(filteredArr)
   };
+
+  //work
+  const [workInfos, setWorkInfos] = useState({id: "", company: "", position: "", from: "", to: "", description: ""});
+  const [workArr, setWorkArr] = useState([]);
+  const [workEditMode, setWorkEditMode] = useState(false);
+
+  useEffect(() => {
+    console.log(workInfos)
+  }, [workInfos])
+
+  const addWork = () => {
+    setWorkArr((prevState) => [...prevState, workInfos])
+    setWorkInfos({id: "", company: "", position: "", from: "", to: "", description: ""})
+  }; console.log(workArr)
+
+  const removeWork = (id) => {
+    let filteredArr = workArr.filter((work) => {
+      return workArr[id] !== work
+    })
+    setWorkArr(filteredArr)
+  }; 
 
   return (
     <> 
@@ -61,6 +80,7 @@ function App() {
                         setSchoolName, setFromDate, setToDate, setDegree, setAchievements}}
                    {...{skills, setSkills, addSkill, removeSkill, skillsArray, showSkillsEdit, 
                         setSkillsEdit}}
+                   {...{workInfos, workArr, setWorkInfos, setWorkArr, workEditMode, setWorkEditMode, addWork, removeWork}}
               /> : 
               <Preview userInfo = {userInfoObj} eduInfo = {eduObj} />
               }
