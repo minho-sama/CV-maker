@@ -153,4 +153,26 @@ label{
         width: 100%;
         box-shadow: none;
     }
+    .deleteWork-btn{
+        float:right;
+        top: 23px;
+        right: 3px;
+    }
+
+    .work-card{
+        display:flex;
+        gap: 5%;
+        font-size: 14px;
+    }
+    .description-btn{
+        top: 25px;
+        right: 18%;
+        font-size: 20px;
+    }
+
+    .descriptionDel-btn{
+        font-size: 13px;
+        top: 27px;
+        right: 21%;
+    }
 }

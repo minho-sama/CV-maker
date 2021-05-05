@@ -2,7 +2,8 @@
 
 My first React project <br>
 
-Live preview: https://minho-sama.github.io/CV-maker/
+Live preview: https://minho-sama.github.io/CV-maker/ <br>
+(Responsive)
 
 Used:<br>
 React js<br>
