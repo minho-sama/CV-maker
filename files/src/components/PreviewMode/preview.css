@@ -80,3 +80,12 @@
 .work-container h3{
     margin-left: 20px;
 }
+
+/*responsive*/
+@media only screen and (max-width: 600px){
+    .preview-form{
+        margin:0;
+        width: 100%;
+        box-shadow: none;
+    }
+}

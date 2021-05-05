@@ -29,3 +29,12 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 700px){
+    a{
+        position:unset;
+    }
+    h2{
+        margin: unset;
+    }
+}

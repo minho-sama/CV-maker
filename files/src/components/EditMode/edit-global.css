@@ -146,3 +146,11 @@ label{
 .description{
     display: block;
 }
+
+@media only screen and (max-width: 600px){
+    article{
+        margin:0;
+        width: 100%;
+        box-shadow: none;
+    }
+}
