@@ -1,5 +1,6 @@
 .mode-btn{
     margin: 8px;
+    margin-bottom: 15px;
     font-size: 20px;
     border: none;
     border-radius: 2px;
@@ -19,6 +20,7 @@ button:hover{
 
 .active-btn{
     background-color: rgb(226, 31, 31);
+    box-shadow: 4px 4px #2c2b2b;
 }
 
 .active:hover{
