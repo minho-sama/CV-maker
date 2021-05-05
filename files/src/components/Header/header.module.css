@@ -25,6 +25,7 @@ a{
     right: 3px;
     text-decoration: none;
     color: white;
+    text-shadow: none;
 }
 a:hover{
     text-decoration: underline;
